@@ -1,0 +1,1 @@
+Please check the documentation of the original repository: https://github.com/dchesterton/amcrest2mqtt

@@ -4,7 +4,7 @@ set +u
 LOGGING=$(bashio::info 'hassio.info.logging' '.logging')
 
 # Read in the file of environment settings
-bashio::log.info 'Read all configuration settigns'
+bashio::log.info 'Read all configuration settings'
 
 # Amcrest Device settings
 export AMCREST_HOST=$(bashio::config 'amcrest_host')
