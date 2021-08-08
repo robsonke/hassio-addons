@@ -1,0 +1,46 @@
+configuration:
+  amcrest_host:
+    name: Amcrest host
+    description: The ip or hostname of the Amcrest device
+  amcrest_port:
+    name: Amcrest port
+    description: The port used by the Amcrest device, default 80 (optional)
+  amcrest_username:
+    name: Amcrest username
+    description: The username to login on the Amcrest device, default admin (optional)
+  amcrest_password:
+    name: Amcrest password
+    description: The password to login on the Amcrest device
+  mqtt_username:
+    name: MQTT username
+    description: The MQTT username, if not set, the hassio MQTT settings are used (optional)
+  mqtt_password:
+    name: MQTT password
+    description: The MQTT password, if not set, the hassio MQTT settings are used (optional)
+  mqtt_host:
+    name: MQTT host
+    description: The MQTT host, if not set, the hassio MQTT settings are used (optional)
+  mqtt_qos:
+    name: MQTT QoS
+    description: Quality of service level, default 0 (optional)
+  mqtt_port:
+    name: MQTT port
+    description: The port of the MQTT server, default 1883 (optional)
+  mqtt_tls_enabled:
+    name: MQTT TLS enabled
+    description: Set to true to enable TLS for the connection to MQTT, default false (optional)
+  mqtt_tls_ca_cert:
+    name: MQTT TLS - path to the ca certs
+    description: CA Cert file, only required if TLS is enabled
+  mqtt_tls_cert:
+    name: MQTT TLS - path to the private cert
+    description: Cert file, only required if TLS is enabled
+  mqtt_tls_key:
+    name: MQTT TLS - path to the private key
+    description: Key file, only required if TLS is enabled
+  home_assistant_prefix:
+    name: Home Assistant prefix
+    description: Prefix, default is 'homeassistant' (optional)
+  storage_poll_interval:
+    name: Storage Poll Interval
+    description: How often to fetch storage data (in seconds, default 3600) (optional)
