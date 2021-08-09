@@ -33,8 +33,7 @@ RUN \
         | tar -xzf - --strip 1 -C /usr/src/bashio \
     && mv /usr/src/bashio/lib /usr/lib/bashio \
     && ln -s /usr/lib/bashio/bashio /usr/bin/bashio \
-    && rm -rf /usr/src/*
-    \
+    && rm -rf /usr/src/* \
     && apk del --purge .build-dependencies
 
 COPY run.sh .
