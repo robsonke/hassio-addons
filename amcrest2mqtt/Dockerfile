@@ -3,7 +3,7 @@ ARG BUILD_ARCH
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
-FROM dchesterton/amcrest2mqtt:1.0.11
+FROM dchesterton/amcrest2mqtt:1.0.15
 
 # Labels
 LABEL \
