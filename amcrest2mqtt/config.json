@@ -1,6 +1,6 @@
 {
   "name": "Amcrest2mqtt",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "slug": "amcrest2mqtt",
   "description": "Amcrest2mqtt, MQTT bridge between Amcrest and Home Assistant",
   "url": "https://github.com/dchesterton/amcrest2mqtt",
